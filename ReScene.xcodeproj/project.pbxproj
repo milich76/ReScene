@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1047F7FA173479CB00B20BC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1047F7F9173479CB00B20BC1 /* Cocoa.framework */; };
+		1047F804173479CB00B20BC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1047F802173479CB00B20BC1 /* InfoPlist.strings */; };
+		1047F806173479CB00B20BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1047F805173479CB00B20BC1 /* main.m */; };
+		1047F80A173479CB00B20BC1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1047F808173479CB00B20BC1 /* Credits.rtf */; };
+		1047F80D173479CB00B20BC1 /* SFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1047F80C173479CB00B20BC1 /* SFDocument.m */; };
+		1047F810173479CB00B20BC1 /* SFDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1047F80E173479CB00B20BC1 /* SFDocument.xib */; };
+		1047F813173479CB00B20BC1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1047F811173479CB00B20BC1 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1047F7F6173479CB00B20BC1 /* ReScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1047F7F9173479CB00B20BC1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1047F7FC173479CB00B20BC1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1047F7FD173479CB00B20BC1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1047F7FE173479CB00B20BC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1047F801173479CB00B20BC1 /* ReScene-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReScene-Info.plist"; sourceTree = "<group>"; };
+		1047F803173479CB00B20BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1047F805173479CB00B20BC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1047F807173479CB00B20BC1 /* ReScene-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReScene-Prefix.pch"; sourceTree = "<group>"; };
+		1047F809173479CB00B20BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1047F80B173479CB00B20BC1 /* SFDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFDocument.h; sourceTree = "<group>"; };
+		1047F80C173479CB00B20BC1 /* SFDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFDocument.m; sourceTree = "<group>"; };
+		1047F80F173479CB00B20BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SFDocument.xib; sourceTree = "<group>"; };
+		1047F812173479CB00B20BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1047F7F3173479CB00B20BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1047F7FA173479CB00B20BC1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1047F7ED173479CB00B20BC1 = {
+			isa = PBXGroup;
+			children = (
+				1047F7FF173479CB00B20BC1 /* ReScene */,
+				1047F7F8173479CB00B20BC1 /* Frameworks */,
+				1047F7F7173479CB00B20BC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1047F7F7173479CB00B20BC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1047F7F6173479CB00B20BC1 /* ReScene.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1047F7F8173479CB00B20BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1047F7F9173479CB00B20BC1 /* Cocoa.framework */,
+				1047F7FB173479CB00B20BC1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1047F7FB173479CB00B20BC1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1047F7FC173479CB00B20BC1 /* AppKit.framework */,
+				1047F7FD173479CB00B20BC1 /* CoreData.framework */,
+				1047F7FE173479CB00B20BC1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1047F7FF173479CB00B20BC1 /* ReScene */ = {
+			isa = PBXGroup;
+			children = (
+				1047F80B173479CB00B20BC1 /* SFDocument.h */,
+				1047F80C173479CB00B20BC1 /* SFDocument.m */,
+				1047F80E173479CB00B20BC1 /* SFDocument.xib */,
+				1047F811173479CB00B20BC1 /* MainMenu.xib */,
+				1047F800173479CB00B20BC1 /* Supporting Files */,
+			);
+			path = ReScene;
+			sourceTree = "<group>";
+		};
+		1047F800173479CB00B20BC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1047F801173479CB00B20BC1 /* ReScene-Info.plist */,
+				1047F802173479CB00B20BC1 /* InfoPlist.strings */,
+				1047F805173479CB00B20BC1 /* main.m */,
+				1047F807173479CB00B20BC1 /* ReScene-Prefix.pch */,
+				1047F808173479CB00B20BC1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1047F7F5173479CB00B20BC1 /* ReScene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1047F816173479CB00B20BC1 /* Build configuration list for PBXNativeTarget "ReScene" */;
+			buildPhases = (
+				1047F7F2173479CB00B20BC1 /* Sources */,
+				1047F7F3173479CB00B20BC1 /* Frameworks */,
+				1047F7F4173479CB00B20BC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReScene;
+			productName = ReScene;
+			productReference = 1047F7F6173479CB00B20BC1 /* ReScene.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1047F7EE173479CB00B20BC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Sarofax;
+			};
+			buildConfigurationList = 1047F7F1173479CB00B20BC1 /* Build configuration list for PBXProject "ReScene" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1047F7ED173479CB00B20BC1;
+			productRefGroup = 1047F7F7173479CB00B20BC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1047F7F5173479CB00B20BC1 /* ReScene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1047F7F4173479CB00B20BC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1047F804173479CB00B20BC1 /* InfoPlist.strings in Resources */,
+				1047F80A173479CB00B20BC1 /* Credits.rtf in Resources */,
+				1047F810173479CB00B20BC1 /* SFDocument.xib in Resources */,
+				1047F813173479CB00B20BC1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1047F7F2173479CB00B20BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1047F806173479CB00B20BC1 /* main.m in Sources */,
+				1047F80D173479CB00B20BC1 /* SFDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1047F802173479CB00B20BC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1047F803173479CB00B20BC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1047F808173479CB00B20BC1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1047F809173479CB00B20BC1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1047F80E173479CB00B20BC1 /* SFDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1047F80F173479CB00B20BC1 /* en */,
+			);
+			name = SFDocument.xib;
+			sourceTree = "<group>";
+		};
+		1047F811173479CB00B20BC1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1047F812173479CB00B20BC1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1047F814173479CB00B20BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		1047F815173479CB00B20BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		1047F817173479CB00B20BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReScene/ReScene-Prefix.pch";
+				INFOPLIST_FILE = "ReScene/ReScene-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1047F818173479CB00B20BC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReScene/ReScene-Prefix.pch";
+				INFOPLIST_FILE = "ReScene/ReScene-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1047F7F1173479CB00B20BC1 /* Build configuration list for PBXProject "ReScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1047F814173479CB00B20BC1 /* Debug */,
+				1047F815173479CB00B20BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1047F816173479CB00B20BC1 /* Build configuration list for PBXNativeTarget "ReScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1047F817173479CB00B20BC1 /* Debug */,
+				1047F818173479CB00B20BC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1047F7EE173479CB00B20BC1 /* Project object */;
+}
